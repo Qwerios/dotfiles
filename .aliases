@@ -27,7 +27,9 @@ fi
 
 # List all files colorized in long format, humanly readable sizes
 alias l="ls -lFh ${colorflag}"
-alias ll="ls -lFh ${colorflag}"
+
+# Old habits die hard
+alias ll="l"
 
 # List all files colorized in long format, including dot files
 alias la="ls -laF ${colorflag}"
